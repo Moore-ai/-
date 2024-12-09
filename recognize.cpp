@@ -188,8 +188,8 @@ void Recognize::test_C(const Mat& img) {
 
                     double rate_standard=WIDTH_BOARD/HEIGHT_LIGHT;
                     double hero_rate_standard=HERO_WIDTH_BOARD/HEIGHT_LIGHT;
-                    cv::rectangle(img,rects[i],cv::Scalar(255,0,0),3);
-                    cv::rectangle(img,rects[j],cv::Scalar(255,0,0),3);
+                    // cv::rectangle(img,rects[i],cv::Scalar(255,0,0),3);
+                    // cv::rectangle(img,rects[j],cv::Scalar(255,0,0),3);
 
                     // std::cout<<rate/rate_standard<<std::endl;
 
